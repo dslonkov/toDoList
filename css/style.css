@@ -1,0 +1,144 @@
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.left-side {
+  display: inline-block;
+  width: 470px;
+}
+
+.right-side {
+  float: right;
+  display: inline-block;
+  width: 470px;
+}
+
+.heading  {
+  font-size: 21px;
+  margin: 0 0 30px 0;
+  font-weight: normal;
+}
+
+.task-heading-input {
+  display: block;
+  width: 410px;
+  height: 40px;
+  border: 1px solid #ebebeb; 
+}
+
+.task-heading-input::placeholder {
+  color: #adb4c5;
+}
+
+.task-descr-textarea {
+  display: block;
+  width: 410px;
+  height: 230px;
+  border: 1px solid #ebebeb;
+  padding: 0;
+}
+
+.task-descr-textarea::placeholder {
+  color: #adb4c5;
+}
+
+.task-container-left {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.task-heading {
+  margin-bottom: 30px;
+}
+
+.task-descr {
+  margin-bottom: 30px;
+}
+
+.task-button {
+  border: none;
+  width: 220px;
+  padding: 16px 16px;
+  background-color: #2174fd;
+  color:#FFF;
+}
+
+.task-heading-label {
+  display: inline-block;
+  color: #adb4c5;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.task-descr-label {
+  display: inline-block;
+  color: #adb4c5;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.task-list {
+  background-color: white;
+}
+
+.task-container {
+  background-color: white;
+  padding: 30px 30px 40px 30px;
+}
+
+.task-list-heading {
+  display: inline-block;
+  color: #000;
+  font-weight: normal;
+  margin: 0;
+  padding-right: 20px;
+}
+
+.header {
+  border-bottom: 1px solid #f7f7f7;
+  padding: 20px;
+}
+
+.delete-task {
+  display: inline-block;
+  border: none;
+  padding: 20px 10px 10px;
+  background-image: url("../img/clear-button.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.collapse-task {
+  display: inline-block;
+  border: none;
+  padding: 20px 10px 10px;
+  float: right;
+  background-image: url("../img/arrow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+
+.task-list-text {
+  display: inline-block;
+  font-size: 14px;
+  color: #adb4c5;
+  margin: 0;
+  padding: 10px 0px 60px 20px;
+  
+}  
+
+.task-block {
+  width: 450px;
+  background-color: white;
+  margin: 0 0 20px 0; 
+}
+
+.empty-list {
+  color: #adb4c5;
+  margin-top: 80px;
+}

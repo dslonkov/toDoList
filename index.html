@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ToDoList</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <main>
+    <h1 class="visually-hidden">ToDoList</h1>
+    
+    <div class="container">
+      <section class="left-side">
+        <h2 class="heading">Список дел:</h2>
+
+        <p class="empty-list" id="js-empty-list">Список пуст...</p>
+ 
+        <ul class="task-container-left" id="js-task-container-left">
+      <!--<li class="task-li">
+            <article class="task-block">
+              <div class="header">
+                <h3 class="task-list-heading"></h3>
+              
+                <button type="submit" class="delete-task" aria-label="удалить дело" aria-controls="task-block"></button>
+
+                <button type="submit" class="collapse-task" aria-label="свернуть описание дела" aria-expanded="false" aria-controls="task-block"></button>
+              </div>
+
+              <p class="task-list-text">reterteterrter</p>
+          </li>-->
+        </ul>
+      </section>
+
+      <section class="right-side">
+        <h2 class="heading">Добавить новое дело</h2>
+
+        <form class="task-container" id="js-form">
+          <div class="task-heading">
+            <label for="js-task-heading-input" class="task-heading-label">*Название</label>
+            <input placeholder="Введите текст" class="task-heading-input" id="js-task-heading-input" type="text" required>
+          </div>
+        
+          <div class="task-descr">
+            <label for="js-task-descr-textarea" class="task-descr-label">*Описание</label>
+            <textarea placeholder="Введите текст" class="task-descr-textarea" id="js-task-descr-textarea" cols="30" rows="10" required></textarea>
+          </div>
+        
+          <button type="submit" class="task-button" id="js-task-button">Добавить дело</button>
+        </form>
+      </section>
+    </div>
+  </main>
+  <script src="script/jquery-3.4.1.min.js"></script>
+  <script src="script/script.js"></script>
+</body>
+</html>
